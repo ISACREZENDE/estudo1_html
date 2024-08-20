@@ -1,0 +1,17 @@
+@charset "UTF3";
+body{
+    background-color: gray;
+}
+main{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    /* deixa ao centro */
+    margin: auto;
+    /* propriedade mais responsivas */
+    min-width: 280px;
+    max-width: 800px;
+}
+img{
+    width: 100%;
+}

@@ -1,0 +1,83 @@
+@charset "UTF3";
+
+/* Em Html é id, e em CSS é # 
+    Em HTML é class, e em CSS é .
+    */
+
+body{
+    background-image: linear-gradient(90deg,#f2f2f2,#ffff,#fff);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.2rem;
+    
+ }
+ body{
+    margin: 0px;
+ }
+ 
+ header{
+    background-color: #02185ff6;
+    padding: 10px;
+    margin: 0px;
+    color: white;
+    box-shadow:3px 12px 13px -3px rgba(0,0,0,0.64);
+    border-radius: 0px 40px;
+ }
+
+ nav{
+    /* background-color: #0C48EA; */
+    padding: 3px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: 1px 1px 1px black;
+ }
+
+
+
+ nav >a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+    
+ }
+ nav:hover > a{
+    text-decoration: underline;
+    color: rgb(180, 78, 99);
+
+ }
+ main{
+    /* background-color: #02185ff6; */
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    
+
+ }
+ article{
+    /* background-color: #0C48EA; */
+    border: 1px solid green;
+    padding: 5px;
+
+ }
+ article > aside{
+    /* background-color:#1090EB; */
+    border: 1px solid red;
+ }
+
+
+
+ footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+ }
+footer > p{
+   margin: 0px;
+}
+
+
+

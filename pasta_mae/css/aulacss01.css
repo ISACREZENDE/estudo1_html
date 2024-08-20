@@ -1,0 +1,34 @@
+@charset "UTF3";
+
+body{
+    background-color:#00002c;
+    border: 1px solid white;
+    margin: 10px;
+}
+h1{
+    color: white;
+    border: 1px solid white ;
+    border-radius: 20px;
+    margin: 20px;
+    padding-left: 20px;
+}
+p{
+    color: white;
+    margin: 20px;
+    padding: 5px;
+    text-align: justify;
+    text-indent: 50px;
+}
+.botao{
+    background-color: #c71755;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.botao a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}

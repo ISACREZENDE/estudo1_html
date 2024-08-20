@@ -1,0 +1,208 @@
+@charset "UTF3";
+/* importado Google */
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Anton&family=Bebas+Neue&family=Dhurjati&family=Domine:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=M+PLUS+Rounded+1c&family=Moderustic:wght@300..800&family=Nanum+Gothic+Coding&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parisienne&family=Passion+One:wght@400;700;900&family=Platypi:ital,wght@0,300..800;1,300..800&family=Playwrite+AR:wght@100..400&family=Playwrite+DK+Loopet:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+@font-face{
+    font-family: 'love';
+    src: url('../letra/love\ story\ ttf.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+/* variáveis cores e fontes */
+:root{
+    --cor1a:#4B4D66;
+    --cor2a:#676C89;
+    --cor3a:#9196B4;
+    --cor4a:#FFFEFB;
+    --cor5a:#E9E5E6;
+    --cor6a:#EBD8C9;
+    --cor7a:#D0B8AC;
+    --cor8a:#8A4A41;
+    --fonte-padrao:Arial,Verdana, Helvetica,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    --fonte-destaque:"Moderustic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    --fonte-android:'love';
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor5a);
+
+}
+.externo::after{
+    content: '\00a0▶';
+
+}
+header{
+    background-image: linear-gradient(to top, var(--cor1a), var(--cor3a));
+    min-height: 150px;
+    text-align: center;
+}
+header h1{
+    /* color: var(--cor6a); */
+    color: white; 
+    font-family: var(--fonte-destaque);
+    letter-spacing: 2px;
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 1px var(--cor3a);
+
+}
+header p{
+    color: var(--cor5a);
+    /* color: white; */
+    max-width: 500px;
+    margin: auto;
+    padding-bottom: 20px;
+    line-height: 1.7rem;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 0px var(--cor3a);
+
+}
+nav{
+    background-color: var(--cor1a);
+    padding: 20px;
+    text-align: end;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.164);
+}
+nav a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: 0.5s;
+}
+nav a:hover{
+    background-color: var(--cor3a);
+    color: var(--cor5a);
+    border-radius: 5px;
+}
+main{
+    background-color: white;
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1{
+    font-family: var(--fonte-android);
+    padding-top: 10px;
+    color: var(--cor2a);
+}
+main p{
+    margin: 15px 0px;
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+main h2{
+    font-family: var(--fonte-android);
+    font-size: 1rem;
+    color: var(--cor1a);
+    padding:2px ;
+    text-indent: 10px;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, var(--cor2a), transparent);
+}
+
+main img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+main .pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+}
+main strong{
+    color: var(--cor1a);
+    font-weight: bold;
+}
+main a{
+    background-color: var(--cor5a);
+    text-decoration: none;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+main a:hover{
+    background-color: var(--cor3a);
+    text-decoration: underline;
+    border-radius: 4px;
+}
+main div{
+    background-color: var(--cor1a);
+    padding: 20px;
+    margin: 0px -1px 20px -1px;
+    position: relative;
+    padding-bottom: 50%;
+    border-radius: 3px;
+}
+main iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+aside{
+    background-color: var(--cor5a);
+    border-radius: 10px;
+    padding: 10px;
+}
+aside h3{
+    color: white;
+    background-color: var(--cor1a);
+    padding: 10px;
+    /* margin  top right bottom left */
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px
+
+}
+aside ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '✔\00a0';
+}
+
+footer{
+    background-color: var(--cor1a);
+    text-align: center;
+}
+footer p{
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+footer a:hover{
+    background-color: var(--cor3a);
+}
