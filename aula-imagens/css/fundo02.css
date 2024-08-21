@@ -1,0 +1,7 @@
+@charset "UTF3";
+
+body{
+    background-image: url('../img/pattern003.png');
+    background-size: 100px 100px;
+    background-repeat: repeat-y;
+}
