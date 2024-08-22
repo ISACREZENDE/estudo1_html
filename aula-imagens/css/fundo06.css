@@ -1,0 +1,25 @@
+@charset "UTF3";
+
+section#container{
+    
+    height: 96vh;
+    background:purple ; 
+    padding: 10px;
+    /* a primeira caixa tem que ser relative */
+    position: relative;
+
+}
+article#conteudo{
+    
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+
+    /* a segunda caixa tem que ser absolute */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+     /* centralizando */
+    transform: translate(-50%, -50%);
+    
+}
