@@ -4,12 +4,27 @@
 body{
     height: 100vh;
     /* tem que colocar o fundo primeiro */
-    background-color: black;
-    background-image: url('../img/wallpaper002.jpg');
 
-    background-position: center center;
-    background-repeat: no-repeat;
+     background-color: black;
+    background-image: url('../img/wallpaper002.jpg'); 
+
+    background-position: center center; 
+     background-repeat: no-repeat; 
+    /* ajusta a imagem a ocupar o body */
+
+     background-size: cover; 
+
+    /* fixar o fundo */
+    /* background-attachment: fixed;  */
+
+    /* shorthand - backgroud (declaração resumida das propriedade do fundo)
+    color, image, position, size(não funciona), repeat, attachament
+    */
+
+
+    background: black url('../img/wallpaper002.jpg') center center no-repeat fixed; 
     background-size: cover;
+    
 }
 main{
     background-color: white;
