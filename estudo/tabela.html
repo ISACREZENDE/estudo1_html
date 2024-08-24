@@ -13,6 +13,7 @@
     <h1> Uso de Tabelas Grandes</h1>
 
     <!-- Anatomia para tabelas grandes
+      caption usada para escrever fora da tabela, legenda da tabela 
         table
             thead
                 tr,td,th
@@ -22,10 +23,13 @@
                 tr,td,th
      -->
     <table>
+        <caption>População das Unidades Federativas</caption>
+
         <thead>
+            <!-- scope row na tag th é obrigatório, visivelmente ele não vai aprsentar nada, mais é fundamental tê-lo -->
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col"   style="width: 50px;">População</th>
 
             </tr>
         </thead>
@@ -144,8 +148,9 @@
         </tbody>
 
         <tfoot>
+            <!-- scope row na tag th é obrigatório, visivelmente ele não vai aprsentar nada, mais é fundamental tê-lo -->
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td>
                     <strong>210 147 125</strong>
                 </td>
