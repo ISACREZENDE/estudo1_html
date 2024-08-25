@@ -3,12 +3,24 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 table{
     width: 500px;
     /* para colar as bordas */
     border-collapse: collapse;
-    
+
+    /* fixar o cabeçalho */
+    position: relative;
 }
+
+/* fixar cabeçalho */
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    /* tem que pegar o mesmo background-color que está no thead */
+    background-color: darkgray;
+}
+
 caption{
     font-size: 1.5rem;
     font-weight: bold;
@@ -17,10 +29,8 @@ caption{
 
 }
 
-
-
-
  thead, tfoot{
+    /* foi repetido para fixar o cabeçalho */
     background-color: darkgrey;
     color: black;
  }
@@ -29,11 +39,21 @@ td, th{
     border: 1px solid black;
     padding: 10px;
 }
-
+ 
 td.numero{
     text-align: right;
 }
 
-
+ /* Efeito zebrado 
+    pseudo classe :nth-child(2n)
+    :nth-child(odd) ímpar
+    nth-child(even) par
+ */
+ tbody tr:nth-child(1n){
+    background-color: burlywood;
+ }
+ tbody tr:nth-child(even){
+    background-color: aqua;
+ }
 
 
