@@ -1,0 +1,47 @@
+@charset "UTF3";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+ caption{
+    font-size: 2rem;
+    font-weight: bold;
+ }
+ table{
+    width: 500px;
+    border-collapse: collapse;
+    
+ }
+
+ th,td{
+    border: 1px solid black;
+    padding: 10px;
+ }
+
+ tr.destaque{
+    background-color: aquamarine;
+
+ }
+
+/* 
+
+ col.nome{
+    background-color: antiquewhite;
+ }
+ col.grupo{
+    background-color:coral;
+ }
+ col.idade{
+    background-color: blueviolet;
+ }
+ col.profissao{
+    background-color: burlywood;
+
+ } */
+
+ .amarelo{
+    background-color: blanchedalmond;
+ }
+ .vermelho{
+    background-color: red;
+ }
