@@ -1,13 +1,4 @@
-@charset "UTF3";
+@charset  "UTF3";
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-table{
-    border-collapse: collapse;
-    width: 300px;
-
-}
-td{
-    border: 1px solid black;
-    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }

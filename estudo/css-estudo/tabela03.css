@@ -1,0 +1,19 @@
+@charset "UTF3";
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table{
+    /* width: 400px; */
+    border-collapse: collapse;
+
+}
+caption{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 10px;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
