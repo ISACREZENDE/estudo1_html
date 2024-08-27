@@ -1,34 +1,26 @@
 @charset  "UTF3";
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 table{
     border-collapse: collapse;
     width: 500px;
-    padding: 20px;
     position: relative;
 }
-
 caption{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: bold;
-    color: white;
     font-variant: small-caps;
+    background-color: rgba(128, 128, 128, 0.747);
     padding: 10px;
-    background-color: gray;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
-
-
-
-thead >tr >th{
-    font-size: 1.2rem;
-    color: white;
+thead tr th{
     text-align: left;
-
+    font-size: 1.2rem;
+    font-weight: bold;
     background-color: rgb(128, 128, 128);
     position: sticky;
     top: -1px;
@@ -37,15 +29,18 @@ th,td{
     border: 1px solid black;
     padding: 10px;
 }
+
 td.numero{
     text-align: right;
+}
 
+tbody tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.637);
 }
-tbody tr:nth-child(odd){
-    background-color: rgba(169, 169, 169, 0.452);
-}
+
 tfoot tr{
     background-color: gray;
     text-align: left;
     font-weight: bold;
+    color: white;
 }
