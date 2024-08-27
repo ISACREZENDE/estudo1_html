@@ -5,6 +5,15 @@ body{
 
  table{
     border-collapse: collapse;
+    width: 500px;
+ }
+ caption{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+    background-color: darkgray;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
  }
  thead{
     background-color: darkgrey;
@@ -14,6 +23,7 @@ th, td{
     border: 1px solid black;
     padding: 10px;
 }
+
 tr.media{
     text-align: left;
     background-color: darkgray;
