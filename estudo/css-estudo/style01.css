@@ -21,6 +21,8 @@ thead > tr > th{
     background-color: darkgray;
 }
 
+
+
 caption{
     font-size: 1.5rem;
     font-weight: bold;
@@ -43,6 +45,7 @@ td, th{
 td.numero{
     text-align: right;
 }
+
 
  /* Efeito zebrado 
     pseudo classe :nth-child(2n)
