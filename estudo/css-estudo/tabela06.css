@@ -1,0 +1,21 @@
+@charset "UTF3";
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ table{
+    border-collapse: collapse;
+ }
+ thead{
+    background-color: darkgrey;
+ }
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+tr.media{
+    text-align: left;
+    background-color: darkgray;
+    font-weight: bolder;
+}
