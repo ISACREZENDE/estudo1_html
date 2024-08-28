@@ -4,6 +4,11 @@ body,html{
 }
 
 iframe{
-    width: 400px;
+    width: 95%;
     height: 400px;
+    border: 2px solid black;
+    /* para centralizar, porque iframe o display é inline  */
+    display: block;
+    margin: auto;
+    
 }

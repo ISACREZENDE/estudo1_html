@@ -10,34 +10,36 @@
 </head>
 <body>
     <h1> Testando o uso de um iframe</h1>
-    <!-- iframe quadro inline, porém nem todos os site aceitam iframe -->
+    <!-- iframe quadro inline, porém nem todos os sites aceitam iframe -->
     <!--  Tamanho padrão do iframe 300x150 -->
-    <p>
-        Acessando o site do 
-        <iframe src="https://www.cursoemvideo.com" 
-        frameborder="0">
-        <!-- caso o navegador não abra, eu coloco também o linh -->
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae similique aspernatur nostrum aut unde ullam ex nisi, dolorum ea praesentium dolor quod, soluta optio iusto repellat adipisci. Odio, doloribus quas?</p>
 
-        <a href="https://www.cursoemvideo.com" target="_blank"></a>
-        </iframe>
+    <!-- abrindo pagina dentro do iframe tem que colocar na tag iframe name e depois no target o nome selecionado no name do iframe   -->
+    
+    <ul>
+        <li> <a href="./tabela.html" target="frame">Primeira página</a></li>
 
-        CursoemVideo para aprender programar
+        <li> <a href="./tabela02.html" target="frame">Segunda página</a></li>
 
-    </p>
+        <li> <a href="./tabela06.html" target="frame">terceira página</a></li>
+    </ul>
     
 
-    <p>
-        O repositório do Guanabara
-        <iframe src="https://gustavoguanabara.github.io/" frameborder="0"  scolling="auto">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste doloremque officia voluptatibus vitae laborum nulla? Enim at sunt distinctio, nobis eius officia eaque, adipisci placeat quis aliquam ea odit deleniti.</p>
 
-            <!-- scolling auto pode usar ou não -->
-            <!-- frameborder é 0 ou 1 e pode por border na css -->
-
-            <a href="https://gustavoguanabara.github.io/" target="_blank"></a>
-        </iframe>
-         também é legal dá um olhada
-    </p>
-
+    <!-- tem que colocar name no iframe -->
     
+    <iframe name="frame" srcdoc= "<h1> Escolha uma das opções acima </h1> <img src='../estudo\img.ico\livro.ico'> " >
+
+        <!--img src='' tem que ser aspa simples para não conflitar com a dupla -->
+
+        <p>Seu navegador não é compatível</p>
+
+    </iframe>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eos accusantium quia impedit pariatur iusto alias dolorum earum provident quasi, maxime harum commodi ullam quaerat reprehenderit ex laborum aperiam ratione.</p>
+
 </body>
 </html>
