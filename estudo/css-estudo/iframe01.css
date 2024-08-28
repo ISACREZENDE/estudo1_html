@@ -2,3 +2,8 @@
 body,html{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+iframe{
+    width: 400px;
+    height: 400px;
+}
