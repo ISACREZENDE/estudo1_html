@@ -1,4 +1,66 @@
 @charset "UTF8";
 
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+@font-face{
+    font-family: 'android';
+    src: url('../../site/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ :root{
+    --fonte1: 'Times New Roman', Times, serif;
+    --fonte2:"Nerko One", cursive;
+    --fonte-android:android;
+
+    --cor1:#009500;
+    --cor2:#06a811;
+    --cor4:#12ce32;
+    --cor5:#18e142;
+    --cor6:#57ca50;
+    --cor7:#8aed7c;
+    --cor8:#9fe396;
+    --cor9:#dff6dc;
+ }
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+ html,body{
+    background-color: var(--cor9);
+    font-family: var(--fonte1);
+ }
+
+ header{
+    min-height: 150px;
+    background-image:linear-gradient(to top, var(--cor1), var(--cor4));
+    text-align: center;
+ }
+ header h1{
+    padding-top: 30px;
+    color: white;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.479);
+    font-family: var(--fonte2);
+    font-size: 3.3rem;
+    font-variant: small-caps;
+ }
+ header p{
+    color: white;
+    max-width:500px ;
+    /* centalizar */
+    margin: auto;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+
+ }
+
+ footer{
+    background-image:linear-gradient(to top, var(--cor1), var(--cor4));
+ }
+
 
 

@@ -10,6 +10,7 @@
         font-style: normal;
 }
 
+
 /* variáveis de cores e fontes */
 :root{
     --cor01a:#052503;
@@ -55,6 +56,8 @@ body{
     background-color: var(--cor03c);
 }
 
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -78,6 +81,8 @@ header h1{
     letter-spacing: 3px;
     text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.171);
 }
+
+
 header p{
     color: white;
     font-size: 1.3rem;
@@ -93,6 +98,7 @@ nav{
     background-color: var(--cor01c);
     padding: 20px;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.096);
+
 }
 nav a{
     color: white;
@@ -100,13 +106,15 @@ nav a{
     font-weight: bold;
     font-size: 1.2rem;
     transition: 0.1s;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
+
+
 nav a:hover{
     background-color: var(--cor02c);
     border-radius: 5px;
     color: var(--cor04c);
+    border: 1px solid white;
 }
 
 main{
@@ -126,6 +134,8 @@ main h1{
     font-weight: normal;
     color: var(--cor02c);
 }
+
+
 main p{
     margin: 15px 0px;
     font-size: 1.2rem;
@@ -146,6 +156,10 @@ main h2{
     width: 100%;
     border-radius: 4px;
  }
+
+
+
+
  main .pequena{
     max-width: 350px;
     display: block;
@@ -164,6 +178,8 @@ main h2{
     padding-bottom: 50%;
     border-radius: 4px;
  }
+
+
  main iframe{
     position: absolute;
     top:5% ;
@@ -184,6 +200,8 @@ main strong{
     background-color: var(--cor03c);
     border-radius: 3px;
  }
+
+
 
  main a:hover{
     background-color: var(--cor03c);
@@ -208,6 +226,8 @@ main strong{
     border-radius: 10px 10px 0px 0px;
 
  }
+
+
  aside ul{
     list-style-position: inside;
     columns: 2;
@@ -232,6 +252,10 @@ footer a{
     font-weight: bold;
     text-decoration: none;
 }
+
+
+
+
 footer a:hover{
     background-color: var(--cor03c); 
     border-radius: 3px;

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/siteEstudo01.css">
     <title>Estudando a construção de site</title>
 </head>
+
 <body>
     <header>  
         <h1> Curiosidade de Tecnologia</h1>
@@ -17,6 +18,7 @@
         <a href="#">Curiosidades</a>
         <a href="#">Fale Conosco</a>
     </nav>
+
     <main>
         <article>
            
@@ -30,12 +32,16 @@
 
             
             <picture>
+                <!-- Para colocar a segunda imagem. Observe o caminho da imagem grande e use o caminha relativo  -->
                 <source media="(max-width:670px )" srcset="../site\imagens\dan-droids-pq.png">
 
+              <!-- imagem grande, o código da segunda imagem tem que ser colocada em cima -->
+
                 <img src="../site/imagens/dan-droids.png" alt="Primeiro mascote do Android">
+
             </picture>
 
-            
+
             <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os <strong>Dandroids</strong>.</p>
 
             <h2>Surge um novo mascote</h2>
@@ -44,14 +50,19 @@
 
         
             <picture>
+                <!-- Para colocar a segunda imagem. Observe o caminho da imagem grande e use o caminha relativo  -->
+
                 <source media="(max-width: 670px)" srcset="../site\imagens\irina-blok-pq.jpg">
+
                 <!-- primeira imagem -->
                 <img src="../site/imagens/irina-blok.jpg" alt="Irina Blok, criadora do Bugdroid">
+
             </picture>
 
             <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o <strong>Bugdroid</strong>, o novo mascote do Android.</p>
 
-            <!-- foi criada uma classe como nome pequena -->
+            <!-- Foi criada uma classe como nome pequena, estilize no css -->
+
             <img class="pequena" src="../site/imagens/bugdroid.png" alt="Bugdroid">
 
 
@@ -64,7 +75,9 @@
             -->
             
             <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=DBQvlb52k3l1B8pp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=DBQvlb52k3l1B8pp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    Seu dispositivo é incompativel.
+                </iframe>
             </div>
 
 
@@ -85,6 +98,8 @@
                     <li>
                         2.2 - <abbr title="Iogurte Congelado">Froyo</abbr>
                     </li>
+
+
                     <li>
                         2.3 - <abbr title="Biscoito de Gengibre">Gingerbread</abbr>
                     </li>
@@ -100,6 +115,7 @@
                     <li>
                         4.4 - <abbr title=" Kitkat">KitKat</abbr>
                     </li>
+
                     <li>
                         5.0 - <abbr title="Pirulito">Lolipop</abbr>
                     </li>
@@ -116,6 +132,8 @@
                         9.0 - <abbr title="Torta">Pie</abbr>
                     </li>
                 </ul>
+
+
                 <p>Infelizmente, o <strong>Android Q</strong> não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.</p>
                 <p>Acesse aqui o site <a href="https://www.android.com/intel/en_uk/history/#/donut" target="_blank" class="externo">Android History</a> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
             </aside>
@@ -124,6 +142,7 @@
 
         </article>
     </main>
+    
     <footer>
         <p>Site criado por <a href=" https://gustavoguanabara.github.io/" target="_blank">Gustavo Guanabara</a> para o <a href="https://www.cursoemvideo.com/cursos/" target="_blank">CursoemVideo</a></p>
     </footer>
