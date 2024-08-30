@@ -1,11 +1,4 @@
-@charset "UTF3";
+@charset "UTF8";
 
-@font-face{
-    font-family: 'android';
-    src: url('../../site/fontes/idroid.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-h1{
-    font-family: 'android';
-}
+
+
