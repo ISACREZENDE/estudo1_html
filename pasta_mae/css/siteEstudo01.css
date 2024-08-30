@@ -254,8 +254,6 @@ footer a{
 }
 
 
-
-
 footer a:hover{
     background-color: var(--cor03c); 
     border-radius: 3px;
