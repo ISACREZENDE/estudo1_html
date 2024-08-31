@@ -16,12 +16,15 @@
 
     --cor1:#009500;
     --cor2:#06a811;
-    --cor4:#12ce32;
-    --cor5:#18e142;
-    --cor6:#57ca50;
-    --cor7:#8aed7c;
-    --cor8:#9fe396;
-    --cor9:#dff6dc;
+    --cor3:#12ce32;
+    --cor4:#18e142;
+    --cor5:#57ca50;
+    --cor6:#8aed7c;
+    --cor7:#9fe396;
+    --cor8:#dff6dc;
+    --cor9:#4d7842;
+    --cor10:#729e65;
+    --cor11:#97c488;
  }
  *{
     margin: 0px;
@@ -34,8 +37,9 @@
 
  header{
     min-height: 150px;
-    background-image:linear-gradient(to top, var(--cor1), var(--cor4));
+    background-image:linear-gradient(to top, var(--cor1), var(--cor3));
     text-align: center;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.253);
  }
  header h1{
     padding-top: 30px;
@@ -55,8 +59,83 @@
     font-size: 1.1rem;
     line-height: 1.5rem;
     letter-spacing: 1px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.199);
+    padding-bottom: 20px;
 
  }
+nav {
+   background-color: var(--cor1);
+   padding-bottom: 20px;
+}
+
+nav a{
+   text-decoration: none;
+   padding: 10px;
+   color: white;
+   font-size: 1.1rem;
+   font-weight: bold;
+   box-sizing: border-box;
+   
+}
+ nav a:hover{
+
+   background-color: var(--cor7);
+   padding: 2px 5px 8px;
+   border-radius: 5px;
+   border: 1px solid white;
+   transition: 0.2s;
+   color: var(--cor1);
+ }
+
+ main{
+   background-color: white;
+   max-width: 800px;
+   min-width: 300px;
+   padding: 10px;
+   margin: auto;
+   margin-bottom: 30px;
+   text-align: justify;
+ }
+ main h1{
+   color: var(--cor1);
+   font-family: var(--fonte-android);
+   letter-spacing: 2px;
+   font-weight: normal;
+ }
+
+ main p{
+   margin: 15px 0px;
+   line-height: 2.5rem; 
+   font-size: 1.2rem;
+   text-indent: 40px;
+
+ }
+ main h2{
+   background-image:linear-gradient(to right,var(--cor3), transparent);
+   font-family: var(--fonte-android);
+   color: var(--cor1);
+   padding: 3px;
+   text-indent: 20px;
+   border-radius: 10px;
+   font-weight: normal;
+   letter-spacing: 2px;
+   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.075);
+ }
+ main img{
+   width: 100%;
+   border-radius: 4px;
+ }
+main img.pequena{
+   max-width: 350px;
+   display: block;
+   margin: auto;
+}
+
+
+
+
+
+
 
  footer{
     background-image:linear-gradient(to top, var(--cor1), var(--cor4));
