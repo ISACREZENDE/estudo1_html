@@ -25,13 +25,15 @@
     --cor9:#4d7842;
     --cor10:#729e65;
     --cor11:#97c488;
+
+    
  }
  *{
     margin: 0px;
     padding: 0px;
  }
  html,body{
-    background-color: var(--cor9);
+    background-color: var(--cor7);
     font-family: var(--fonte1);
  }
 
@@ -95,12 +97,15 @@ nav a{
    margin: auto;
    margin-bottom: 30px;
    text-align: justify;
+   margin-top: 1px;
+   box-shadow: 2px 2px 4px black;
  }
  main h1{
    color: var(--cor1);
    font-family: var(--fonte-android);
    letter-spacing: 2px;
    font-weight: normal;
+   margin-top: 10px;
  }
 
  main p{
@@ -149,7 +154,7 @@ main div{
    color: var(--cor1);
    font-weight: bold;
  }
-main a{
+a{
    text-decoration: none;
    background-color: var(--cor11);
    padding: 2px;
@@ -157,19 +162,53 @@ main a{
    color:white;
 
 }
-main a:hover{
+a:hover{
    background-color: var(--cor1);
 
 }
 
-main a.externo::after{
+ a.externo::after{
    content:'\00a0➤';
 
 }
+ aside{
+   background-color: var(--cor11);
+   border-radius: 10px;
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.384);
+ padding: 20px;
+   
+ }
+ aside ul{
+   list-style-position: inside;
+   list-style-type: '☑︎ \00a0';
+   columns: 2;
+
+
+ }
+
+ aside h3{
+   background-color: var(--cor1);
+
+   color: white;
+   padding: 20px;
+   margin: -20px -20px 0px -20px;
+   border-radius: 10px 10px 0px 0px;
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.37);
+
+ }
+
+
 
  footer{
     background-image:linear-gradient(to top, var(--cor1), var(--cor4));
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
  }
-
+footer a{
+   background-color: var(--cor4);
+}
 
 
