@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css-estudo/formulario.css">
     <title>Formulario Guanabara</title>
 </head>
 <body>
+    <h1>Meu primeiro formulário</h1>
+      <!-- deligar o preenchimento  automático: autocmplete no form-->
+
+        <!-- methodo pode ser Get ou post,usado para compos sensíveis, para enviar de arquivos e mais de 3 mil caracteres -->
+
+    <form method="post" action="cadastro.php">
+
+        <!-- input text -->
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome">
+        </p>
+
+        <p> 
+            <label for="isobrenome">Sobrenome: </label>
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+
+        <p>
+            <label for="isenha">Senha</label>
+            <input type="password" name="senha" id="isenha">
+
+        </p>
+
+
+
+
+        <!-- input submit -->
+        <p> <input type="submit" value="Enviar">
+            <!-- limpar -->
+        <input type="reset" value="Limpar">
+
+        </p>
+        
+
+
+        
+
+    </form>
     
 </body>
 </html>
