@@ -13,22 +13,23 @@
 
         <!-- methodo pode ser Get ou post,usado para compos sensíveis, para enviar de arquivos e mais de 3 mil caracteres -->
 
-    <form method="post" action="cadastro.php">
+    <form method="post" action="cadastro.php" autocomplete="on">
 
         <!-- input text -->
         <p>
             <label for="inome">Nome</label>
-            <input type="text" name="nome" id="inome">
+            <input type="text" name="nome" id="inome" required minlength="8" size="30"  placeholder="nome do usuário"
+            autocomplete="username">
         </p>
 
         <p> 
             <label for="isobrenome">Sobrenome: </label>
-            <input type="text" name="sobrenome" id="isobrenome">
+            <input type="text" name="sobrenome" id="isobrenome" required autocomplete="current-password">
         </p>
 
         <p>
             <label for="isenha">Senha</label>
-            <input type="password" name="senha" id="isenha">
+            <input type="password" name="senha" id="isenha" required minlength="5" maxlength="10">
 
         </p>
 
