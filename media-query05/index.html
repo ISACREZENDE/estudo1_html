@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Pego do google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
     <title>Media Query</title>
 </head>
+
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <!-- Pego do google icons -->
+        <span  id="burguer"  class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+
+        <menu id="menu">
             <ul>
                 <li>
                     <a href="#"> Opção 01</a>
@@ -25,22 +36,35 @@
                 </li>
                 <li>
                     <a href="#">Opção 05</a>
-                </li>
-
-                
+                </li>  
             </ul>
         </menu>
 
     </header>
+
     <main>
         <article>
             <h2>Tetando Media Queries</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, magnam quidem voluptatum omnis ipsa nisi veritatis iste iure vero autem libero! Fugiat eum delectus quod. Quasi sed voluptatibus nisi in.</p>
             <p>Quia obcaecati consectetur vero unde repellendus repudiandae reprehenderit et aut eaque doloribus sunt, culpa suscipit esse exercitationem quibusdam magni ullam recusandae saepe ratione. Tempore numquam quam atque recusandae libero quaerat.</p>
             <p>Facilis tenetur iure ipsum amet! Vero soluta eos temporibus debitis voluptatibus dolorem culpa deleniti deserunt, natus eaque praesentium pariatur, itaque dignissimos delectus ut corporis in veritatis cumque a autem? Dignissimos!</p>
+            
             <p>Molestiae, vel quas culpa dignissimos neque pariatur architecto ad voluptatem! Consectetur reiciendis nesciunt totam, praesentium repellendus aliquam, modi ipsum nisi ex ducimus magnam, autem accusantium architecto. Nobis quod ipsa accusamus.</p>
         </article>
     </main>
-    
+
+    <!-- script local -->
+    <script>
+        function clickMenu(){
+           if( menu.style.display =='block') {
+            menu.style.display='none'
+           }
+           else{
+                menu.style.display='block'
+
+           }
+        }
+
+    </script>
 </body>
 </html>

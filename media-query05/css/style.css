@@ -17,13 +17,33 @@ header{
     text-align: center;
     padding: 10px;
  }
-menu{
+
+
+
+ span#burguer{
+    background-color: rgb(53, 44, 44);
+    color: white;
     display: block;
+    text-align: center;
+    padding: 10px;
+
+ }
+
+ span#burguer:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+ }
+menu{
+    /* desapareceu  os intens o menu*/
+    display: none;
     
 }
 menu ul{
     list-style-type: none;
 }
+
+
 menu  a{
     display: block;
     padding: 10px;
@@ -49,6 +69,9 @@ main{
 article h2{
     padding-bottom: 20px;
 }
+
+
+
 article p{ 
     text-align: justify;
     margin-bottom: 20px;
