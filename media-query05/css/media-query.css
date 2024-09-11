@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* para dispositivos acima 768px */
+@media screen and (min-width:768px) {
+    span#burguer{
+        display: none;
+
+    }
+    
+}
+menu{
+    display: block;
+}
+/* tem que clicar no hamburguer para ele abrir os itns da tag menu */
+menu li{
+    display: inline-block;
+}
+main{
+    width: 768px;
+}
